@@ -16,12 +16,12 @@ export default function Home() {
                 Premium jackets crafted with meticulous attention to detail. Quiet design. Enduring quality.
               </p>
               <div className="mt-6 flex items-center gap-4">
-                <a href="#shop" className="btn px-6 py-3 text-sm">Shop Collection</a>
+                <a href="/products" className="btn px-6 py-3 text-sm">Shop Collection</a>
                 <a href="#about" className="link-underline text-sm">Learn more</a>
               </div>
             </div>
             <div>
-              <Image src="/images/jacket1.jpeg" alt="Leather Jacket" width={1200} height={800} className="w-full h-[480px] object-cover rounded-2xl" />
+              <Image src="/images/hero.png" alt="Bonita Leather Jacket - Hero" width={1200} height={800} className="w-full h-[480px] object-cover rounded-2xl" />
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="container">
           <div className="flex items-end justify-between mb-6">
             <h2 className="heading-serif text-3xl md:text-4xl font-semibold">Featured Jackets</h2>
-            <a href="#" className="link-underline text-sm">View all</a>
+            <a href="/products" className="link-underline text-sm">View all</a>
           </div>
           <ProductGrid />
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
             <div className="mt-5 flex gap-3">
               <a href="#contact" className="btn px-5 py-2 text-sm">Contact</a>
-              <a href="#shop" className="link-underline text-sm">Shop now</a>
+              <a href="/products" className="link-underline text-sm">Shop now</a>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-3">

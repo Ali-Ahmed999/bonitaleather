@@ -1,56 +1,326 @@
 [
   {
-    "id": "aero-bomber",
-    "name": "Aero Bomber",
-    "price": 220,
-    "images": ["/images/jacket2.jpeg", "/images/jacket3.jpeg"],
+    "id": "bonita-classic-black-1",
+    "name": "Bonita Classic Black Leather Jacket",
+    "price": 320,
+    "images": ["/images/jacket1.jpeg"],
+    "thumbnail": "/images/jacket1.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Timeless black leather jacket with classic biker styling. Premium quality leather with perfect fit and attention to detail."
+  },
+  {
+    "id": "bonita-brown-vintage-1",
+    "name": "Bonita Brown Vintage Leather Jacket",
+    "price": 350,
+    "images": ["/images/jacket2.jpeg"],
     "thumbnail": "/images/jacket2.jpeg",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Streamlined bomber in premium leather with minimal hardware and a tailored fit."
+    "description": "Rich brown leather with vintage-inspired details. A true investment piece that ages beautifully over time."
   },
   {
-    "id": "midnight-rider",
-    "name": "Midnight Rider",
-    "price": 260,
-    "images": ["/images/jacket3.jpeg", "/images/jacket4.jpeg"],
+    "id": "bonita-navy-executive-1",
+    "name": "Bonita Navy Executive Leather Jacket",
+    "price": 310,
+    "images": ["/images/jacket3.jpeg"],
     "thumbnail": "/images/jacket3.jpeg",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "A modern rider silhouette with reinforced seams and sleek detailing."
+    "description": "Professional navy leather with refined tailoring. Perfect for the executive who demands both style and substance."
   },
   {
-    "id": "urban-minimal",
-    "name": "Urban Minimal",
-    "price": 240,
-    "images": ["/images/jacket4.jpeg", "/images/jacket5.jpeg"],
+    "id": "bonita-tan-minimal-1",
+    "name": "Bonita Tan Minimal Leather Jacket",
+    "price": 270,
+    "images": ["/images/jacket4.jpeg"],
     "thumbnail": "/images/jacket4.jpeg",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Understated lines and monochrome finish for a clean, versatile look."
+    "description": "Soft tan leather with clean, minimal design. Versatile piece that transitions seamlessly from day to night."
   },
   {
-    "id": "heritage-trucker",
-    "name": "Heritage Trucker",
+    "id": "bonita-red-bold-1",
+    "name": "Bonita Red Bold Leather Jacket",
     "price": 280,
-    "images": ["/images/jacket5.jpeg", "/images/jacket6.jpeg"],
+    "images": ["/images/jacket5.jpeg"],
     "thumbnail": "/images/jacket5.jpeg",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Classic trucker reimagined with premium hides and upgraded hardware."
+    "description": "Bold red leather jacket making a statement. Perfect balance of elegance and edge for any occasion."
   },
   {
-    "id": "monochrome-moto",
-    "name": "Monochrome Moto",
-    "price": 300,
-    "images": ["/images/jacket6.jpeg", "/images/jacket7.jpeg"],
+    "id": "bonita-charcoal-urban-1",
+    "name": "Bonita Charcoal Urban Leather Jacket",
+    "price": 295,
+    "images": ["/images/jacket6.jpeg"],
     "thumbnail": "/images/jacket6.jpeg",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Performance-inspired moto with subtle vents and a stealth aesthetic."
+    "description": "Urban-inspired charcoal leather with contemporary cuts. Designed for the city dweller with discerning taste."
   },
   {
-    "id": "classic-cafe",
-    "name": "Classic Cafe",
-    "price": 250,
-    "images": ["/images/jacket7.jpeg", "/images/jacket8.jpeg"],
+    "id": "bonita-olive-military-1",
+    "name": "Bonita Olive Military Leather Jacket",
+    "price": 330,
+    "images": ["/images/jacket7.jpeg"],
     "thumbnail": "/images/jacket7.jpeg",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Timeless cafe racer with minimalist paneling and a trim profile."
+    "description": "Military-inspired olive leather with functional details. Rugged yet refined for the adventurous spirit."
+  },
+  {
+    "id": "bonita-burgundy-luxury-1",
+    "name": "Bonita Burgundy Luxury Leather Jacket",
+    "price": 380,
+    "images": ["/images/jacket8.jpeg"],
+    "thumbnail": "/images/jacket8.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Luxurious burgundy leather with hand-finished details. The pinnacle of craftsmanship and sophisticated style."
+  },
+  {
+    "id": "bonita-cream-elegant-1",
+    "name": "Bonita Cream Elegant Leather Jacket",
+    "price": 300,
+    "images": ["/images/jacket9.jpeg"],
+    "thumbnail": "/images/jacket9.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Elegant cream leather with timeless appeal. A sophisticated choice for those who appreciate understated luxury."
+  },
+  {
+    "id": "bonita-maroon-vintage-1",
+    "name": "Bonita Maroon Vintage Leather Jacket",
+    "price": 340,
+    "images": ["/images/jacket10.jpeg"],
+    "thumbnail": "/images/jacket10.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Vintage-inspired maroon leather with classic proportions. A statement piece that never goes out of style."
+  },
+  {
+    "id": "bonita-blue-modern-1",
+    "name": "Bonita Blue Modern Leather Jacket",
+    "price": 290,
+    "images": ["/images/jacket11.jpeg"],
+    "thumbnail": "/images/jacket11.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Contemporary blue leather with minimalist design. Crafted for the modern professional who values quality and style."
+  },
+  {
+    "id": "bonita-gray-sophisticated-1",
+    "name": "Bonita Gray Sophisticated Leather Jacket",
+    "price": 315,
+    "images": ["/images/jacket12.jpeg"],
+    "thumbnail": "/images/jacket12.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Sophisticated gray leather with refined details. Perfect for those who appreciate subtle luxury and timeless style."
+  },
+  {
+    "id": "bonita-black-premium-1",
+    "name": "Bonita Black Premium Leather Jacket",
+    "price": 360,
+    "images": ["/images/jacket 13.jpeg"],
+    "thumbnail": "/images/jacket 13.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Premium black leather with exceptional craftsmanship. The ultimate wardrobe essential for sophisticated style."
+  },
+  {
+    "id": "bonita-brown-heritage-1",
+    "name": "Bonita Brown Heritage Leather Jacket",
+    "price": 370,
+    "images": ["/images/jacket14.jpeg"],
+    "thumbnail": "/images/jacket14.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Heritage brown leather with vintage-inspired details. A true investment piece that tells a story of quality and tradition."
+  },
+  {
+    "id": "bonita-black-classic-1",
+    "name": "Bonita Black Classic Leather Jacket",
+    "price": 325,
+    "images": ["/images/jacket15.jpeg"],
+    "thumbnail": "/images/jacket15.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Classic black leather with timeless appeal. Clean lines and perfect proportions for the modern gentleman."
+  },
+  {
+    "id": "bonita-tan-vintage-1",
+    "name": "Bonita Tan Vintage Leather Jacket",
+    "price": 340,
+    "images": ["/images/jacket16.jpeg"],
+    "thumbnail": "/images/jacket16.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Vintage tan leather with aged patina. Each piece tells a story of quality craftsmanship and timeless style."
+  },
+  {
+    "id": "bonita-navy-professional-1",
+    "name": "Bonita Navy Professional Leather Jacket",
+    "price": 330,
+    "images": ["/images/jacket17.jpeg"],
+    "thumbnail": "/images/jacket17.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Professional navy leather with business-ready styling. Perfect for the executive who demands both style and substance."
+  },
+  {
+    "id": "bonita-black-luxury-1",
+    "name": "Bonita Black Luxury Leather Jacket",
+    "price": 420,
+    "images": ["/images/jacket18.jpeg"],
+    "thumbnail": "/images/jacket18.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Luxury black leather with hand-finished details. The pinnacle of craftsmanship and sophisticated style for the discerning customer."
+  },
+  {
+    "id": "bonita-classic-black-2",
+    "name": "Bonita Classic Black Leather Jacket - Collection 2",
+    "price": 320,
+    "images": ["/images/IMG-20250929-WA0037.jpg", "/images/IMG-20250929-WA0038.jpg", "/images/IMG-20250929-WA0039.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0037.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another classic black leather jacket with different styling details. Premium quality leather with perfect fit and attention to detail."
+  },
+  {
+    "id": "bonita-brown-vintage-2",
+    "name": "Bonita Brown Vintage Leather Jacket - Collection 2",
+    "price": 350,
+    "images": ["/images/IMG-20250929-WA0040.jpg", "/images/IMG-20250929-WA0041.jpg", "/images/IMG-20250929-WA0042.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0040.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another rich brown leather with vintage-inspired details. A true investment piece that ages beautifully over time."
+  },
+  {
+    "id": "bonita-navy-executive-2",
+    "name": "Bonita Navy Executive Leather Jacket - Collection 2",
+    "price": 310,
+    "images": ["/images/IMG-20250929-WA0043.jpg", "/images/IMG-20250929-WA0044.jpg", "/images/IMG-20250929-WA0045.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0043.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another professional navy leather with refined tailoring. Perfect for the executive who demands both style and substance."
+  },
+  {
+    "id": "bonita-tan-minimal-2",
+    "name": "Bonita Tan Minimal Leather Jacket - Collection 2",
+    "price": 270,
+    "images": ["/images/IMG-20250929-WA0046.jpg", "/images/IMG-20250929-WA0047.jpg", "/images/IMG-20250929-WA0048.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0046.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another soft tan leather with clean, minimal design. Versatile piece that transitions seamlessly from day to night."
+  },
+  {
+    "id": "bonita-red-bold-2",
+    "name": "Bonita Red Bold Leather Jacket - Collection 2",
+    "price": 280,
+    "images": ["/images/IMG-20250929-WA0049.jpg", "/images/IMG-20250929-WA0050.jpg", "/images/IMG-20250929-WA0051.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0049.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another bold red leather jacket making a statement. Perfect balance of elegance and edge for any occasion."
+  },
+  {
+    "id": "bonita-charcoal-urban-2",
+    "name": "Bonita Charcoal Urban Leather Jacket - Collection 2",
+    "price": 295,
+    "images": ["/images/IMG-20250929-WA0052.jpg", "/images/IMG-20250929-WA0053.jpg", "/images/IMG-20250929-WA0054.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0052.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another urban-inspired charcoal leather with contemporary cuts. Designed for the city dweller with discerning taste."
+  },
+  {
+    "id": "bonita-olive-military-2",
+    "name": "Bonita Olive Military Leather Jacket - Collection 2",
+    "price": 330,
+    "images": ["/images/IMG-20250929-WA0055.jpg", "/images/IMG-20250929-WA0056.jpg", "/images/IMG-20250929-WA0058.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0055.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another military-inspired olive leather with functional details. Rugged yet refined for the adventurous spirit."
+  },
+  {
+    "id": "bonita-burgundy-luxury-2",
+    "name": "Bonita Burgundy Luxury Leather Jacket - Collection 2",
+    "price": 380,
+    "images": ["/images/IMG-20250929-WA0059.jpg", "/images/IMG-20250929-WA0060.jpg", "/images/IMG-20250929-WA0061.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0059.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another luxurious burgundy leather with hand-finished details. The pinnacle of craftsmanship and sophisticated style."
+  },
+  {
+    "id": "bonita-cream-elegant-2",
+    "name": "Bonita Cream Elegant Leather Jacket - Collection 2",
+    "price": 300,
+    "images": ["/images/IMG-20250929-WA0062.jpg", "/images/IMG-20250929-WA0063.jpg", "/images/IMG-20250929-WA0064.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0062.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another elegant cream leather with timeless appeal. A sophisticated choice for those who appreciate understated luxury."
+  },
+  {
+    "id": "bonita-maroon-vintage-2",
+    "name": "Bonita Maroon Vintage Leather Jacket - Collection 2",
+    "price": 340,
+    "images": ["/images/IMG-20250929-WA0065.jpg", "/images/IMG-20250929-WA0066.jpg", "/images/IMG-20250929-WA0067.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0065.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another vintage-inspired maroon leather with classic proportions. A statement piece that never goes out of style."
+  },
+  {
+    "id": "bonita-blue-modern-2",
+    "name": "Bonita Blue Modern Leather Jacket - Collection 2",
+    "price": 290,
+    "images": ["/images/IMG-20250929-WA0068.jpg", "/images/IMG-20250929-WA0069.jpg", "/images/IMG-20250929-WA0070.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0068.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another contemporary blue leather with minimalist design. Crafted for the modern professional who values quality and style."
+  },
+  {
+    "id": "bonita-gray-sophisticated-2",
+    "name": "Bonita Gray Sophisticated Leather Jacket - Collection 2",
+    "price": 315,
+    "images": ["/images/IMG-20250929-WA0071.jpg", "/images/IMG-20250929-WA0072.jpg", "/images/IMG-20250929-WA0073.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0071.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another sophisticated gray leather with refined details. Perfect for those who appreciate subtle luxury and timeless style."
+  },
+  {
+    "id": "bonita-black-premium-2",
+    "name": "Bonita Black Premium Leather Jacket - Collection 2",
+    "price": 360,
+    "images": ["/images/IMG-20250929-WA0074.jpg", "/images/IMG-20250929-WA0075.jpg", "/images/IMG-20250929-WA0076.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0074.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another premium black leather with exceptional craftsmanship. The ultimate wardrobe essential for sophisticated style."
+  },
+  {
+    "id": "bonita-brown-heritage-2",
+    "name": "Bonita Brown Heritage Leather Jacket - Collection 2",
+    "price": 370,
+    "images": ["/images/IMG-20250929-WA0077.jpg", "/images/IMG-20250929-WA0078.jpg", "/images/IMG-20250929-WA0079.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0077.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another heritage brown leather with vintage-inspired details. A true investment piece that tells a story of quality and tradition."
+  },
+  {
+    "id": "bonita-black-classic-2",
+    "name": "Bonita Black Classic Leather Jacket - Collection 2",
+    "price": 325,
+    "images": ["/images/IMG-20250929-WA0080.jpg", "/images/IMG-20250929-WA0081.jpg", "/images/IMG-20250929-WA0082.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0080.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another classic black leather with timeless appeal. Clean lines and perfect proportions for the modern gentleman."
+  },
+  {
+    "id": "bonita-tan-vintage-2",
+    "name": "Bonita Tan Vintage Leather Jacket - Collection 2",
+    "price": 340,
+    "images": ["/images/IMG-20250929-WA0083.jpg", "/images/IMG-20250929-WA0084.jpg", "/images/IMG-20250929-WA0085.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0083.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another vintage tan leather with aged patina. Each piece tells a story of quality craftsmanship and timeless style."
+  },
+  {
+    "id": "bonita-navy-professional-2",
+    "name": "Bonita Navy Professional Leather Jacket - Collection 2",
+    "price": 330,
+    "images": ["/images/IMG-20250929-WA0086.jpg", "/images/IMG-20250929-WA0087.jpg", "/images/IMG-20250929-WA0088.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0086.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another professional navy leather with business-ready styling. Perfect for the executive who demands both style and substance."
+  },
+  {
+    "id": "bonita-black-luxury-2",
+    "name": "Bonita Black Luxury Leather Jacket - Collection 2",
+    "price": 420,
+    "images": ["/images/IMG-20250929-WA0089.jpg", "/images/IMG-20250929-WA0090.jpg", "/images/IMG-20250929-WA0091.jpg"],
+    "thumbnail": "/images/IMG-20250929-WA0089.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Another luxury black leather with hand-finished details. The pinnacle of craftsmanship and sophisticated style for the discerning customer."
   }
 ]
