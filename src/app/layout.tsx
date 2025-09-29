@@ -3,6 +3,8 @@ import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers";
 import NavbarLinks from "@/components/NavbarLinks";
+import Link from "next/link";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,11 +38,12 @@ export default function RootLayout({
         <Providers>
           <header className="sticky top-0 z-50 nav-blur border-b border-black/10">
             <nav className="container flex items-center justify-between py-3">
-              <a href="/" className="heading-serif text-lg">Bonita Leather</a>
+              <Link href="/" className="heading-serif text-lg">Bonita Leather</Link>
               <NavbarLinks />
             </nav>
           </header>
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>

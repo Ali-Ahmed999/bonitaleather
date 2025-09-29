@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
 
 export default function CartDrawer() {
@@ -20,7 +21,7 @@ export default function CartDrawer() {
           )}
           {items.map((it) => (
             <div key={`${it.id}-${it.size}`} className="p-3 flex gap-3 border border-black/10 rounded-xl bg-white">
-              <img src={it.thumbnail} alt={it.name} className="w-16 h-16 object-cover rounded-md" />
+              <Image src={it.thumbnail} alt={it.name} width={64} height={64} className="object-cover rounded-md" />
               <div className="flex-1">
                 <div className="flex items-start justify-between">
                   <div>

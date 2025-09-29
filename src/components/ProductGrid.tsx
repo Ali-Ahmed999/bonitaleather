@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Product } from '@/lib/products';
 import { useCart } from '@/context/CartContext';
 
@@ -21,7 +22,7 @@ export default function ProductGrid() {
         <div key={p.id} className="group">
           <a href={`/product/${p.id}`} className="block">
             <div className="relative aspect-[4/5] overflow-hidden img-frame img-elevate">
-              <img src={p.thumbnail} alt={p.name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
+              <Image src={p.thumbnail} alt={p.name} fill className="object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             </div>
           </a>
           <div className="px-1 py-3 flex items-center justify-between">

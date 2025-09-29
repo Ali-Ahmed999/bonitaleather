@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useMemo, useState } from 'react';
+import Image from 'next/image';
 import { useParams, notFound } from 'next/navigation';
 import { Product } from '@/lib/products';
 import { useCart } from '@/context/CartContext';
@@ -35,12 +36,12 @@ export default function ProductPage() {
       <div className="container grid gap-12 md:grid-cols-2 items-start">
         <div className="grid gap-3">
           <div className="img-frame img-elevate rounded-2xl overflow-hidden">
-            <img src={product.images[0]} alt={product.name} className="w-full h-[520px] object-cover" />
+            <Image src={product.images[0]} alt={product.name} width={1200} height={900} className="w-full h-[520px] object-cover" />
           </div>
           <div className="grid grid-cols-3 gap-3">
             {product.images.slice(1).map((img) => (
               <div key={img} className="img-frame img-elevate rounded-xl overflow-hidden">
-                <img src={img} alt={product.name} className="h-28 w-full object-cover" />
+                <Image src={img} alt={product.name} width={400} height={240} className="h-28 w-full object-cover" />
               </div>
             ))}
           </div>

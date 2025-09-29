@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useCart } from '@/context/CartContext';
 
@@ -56,7 +57,7 @@ export default function CheckoutPage() {
           <ul className="mt-4 space-y-3">
             {items.map(it => (
               <li key={`${it.id}-${it.size}`} className="flex items-center gap-3">
-                <img src={it.thumbnail} className="w-14 h-14 rounded-md object-cover" />
+                <Image src={it.thumbnail} alt={it.name} width={56} height={56} className="rounded-md object-cover" />
                 <div className="flex-1">
                   <p className="text-sm">{it.name}</p>
                   <p className="text-xs text-black/60">Size {it.size} × {it.quantity}</p>

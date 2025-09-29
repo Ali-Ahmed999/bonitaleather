@@ -1,4 +1,5 @@
 import ProductGrid from "@/components/ProductGrid";
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="font-sans">
@@ -20,7 +21,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <img src="/images/jacket1.jpeg" alt="Leather Jacket" className="w-full h-[480px] object-cover rounded-2xl" />
+              <Image src="/images/jacket1.jpeg" alt="Leather Jacket" width={1200} height={800} className="w-full h-[480px] object-cover rounded-2xl" />
             </div>
           </div>
         </div>
@@ -51,10 +52,10 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-3">
-            <img src="/images/jacket8.jpeg" alt="Detail" className="h-48 w-full object-cover rounded-xl" />
-            <img src="/images/jacket9.jpeg" alt="Stitch" className="h-48 w-full object-cover rounded-xl" />
-            <img src="/images/jacket10.jpeg" alt="Texture" className="h-48 w-full object-cover rounded-xl" />
-            <img src="/images/jacket11.jpeg" alt="Finish" className="h-48 w-full object-cover rounded-xl" />
+            <Image src="/images/jacket8.jpeg" alt="Detail" width={600} height={400} className="h-48 w-full object-cover rounded-xl" />
+            <Image src="/images/jacket9.jpeg" alt="Stitch" width={600} height={400} className="h-48 w-full object-cover rounded-xl" />
+            <Image src="/images/jacket10.jpeg" alt="Texture" width={600} height={400} className="h-48 w-full object-cover rounded-xl" />
+            <Image src="/images/jacket11.jpeg" alt="Finish" width={600} height={400} className="h-48 w-full object-cover rounded-xl" />
           </div>
         </div>
       </section>
