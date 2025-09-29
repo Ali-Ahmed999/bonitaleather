@@ -1,0 +1,56 @@
+[
+  {
+    "id": "aero-bomber",
+    "name": "Aero Bomber",
+    "price": 220,
+    "images": ["/images/jacket2.jpeg", "/images/jacket3.jpeg"],
+    "thumbnail": "/images/jacket2.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Streamlined bomber in premium leather with minimal hardware and a tailored fit."
+  },
+  {
+    "id": "midnight-rider",
+    "name": "Midnight Rider",
+    "price": 260,
+    "images": ["/images/jacket3.jpeg", "/images/jacket4.jpeg"],
+    "thumbnail": "/images/jacket3.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "A modern rider silhouette with reinforced seams and sleek detailing."
+  },
+  {
+    "id": "urban-minimal",
+    "name": "Urban Minimal",
+    "price": 240,
+    "images": ["/images/jacket4.jpeg", "/images/jacket5.jpeg"],
+    "thumbnail": "/images/jacket4.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Understated lines and monochrome finish for a clean, versatile look."
+  },
+  {
+    "id": "heritage-trucker",
+    "name": "Heritage Trucker",
+    "price": 280,
+    "images": ["/images/jacket5.jpeg", "/images/jacket6.jpeg"],
+    "thumbnail": "/images/jacket5.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Classic trucker reimagined with premium hides and upgraded hardware."
+  },
+  {
+    "id": "monochrome-moto",
+    "name": "Monochrome Moto",
+    "price": 300,
+    "images": ["/images/jacket6.jpeg", "/images/jacket7.jpeg"],
+    "thumbnail": "/images/jacket6.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Performance-inspired moto with subtle vents and a stealth aesthetic."
+  },
+  {
+    "id": "classic-cafe",
+    "name": "Classic Cafe",
+    "price": 250,
+    "images": ["/images/jacket7.jpeg", "/images/jacket8.jpeg"],
+    "thumbnail": "/images/jacket7.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Timeless cafe racer with minimalist paneling and a trim profile."
+  }
+]

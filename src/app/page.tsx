@@ -1,103 +1,70 @@
-import Image from "next/image";
-
+import ProductGrid from "@/components/ProductGrid";
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="font-sans">
+      {/* Hero */}
+      <section id="home" className="section-lg">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+              <p className="text-xs tracking-widest text-black/50">HANDCRAFTED QUALITY</p>
+              <h1 className="heading-serif mt-2 text-5xl md:text-6xl font-semibold leading-tight">
+                Timeless Leather, Effortlessly Refined
+              </h1>
+              <p className="mt-4 text-black/70 max-w-prose">
+                Premium jackets crafted with meticulous attention to detail. Quiet design. Enduring quality.
+              </p>
+              <div className="mt-6 flex items-center gap-4">
+                <a href="#shop" className="btn px-6 py-3 text-sm">Shop Collection</a>
+                <a href="#about" className="link-underline text-sm">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="/images/jacket1.jpeg" alt="Leather Jacket" className="w-full h-[480px] object-cover rounded-2xl" />
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* Product Grid */}
+      <section id="shop" className="section">
+        <div className="container">
+          <div className="flex items-end justify-between mb-6">
+            <h2 className="heading-serif text-3xl md:text-4xl font-semibold">Featured Jackets</h2>
+            <a href="#" className="link-underline text-sm">View all</a>
+          </div>
+          <ProductGrid />
+        </div>
+      </section>
+
+      {/* About */}
+      <section id="about" className="section">
+        <div className="container grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h3 className="heading-serif text-2xl md:text-3xl font-semibold">Crafted to Endure</h3>
+            <p className="mt-3 text-black/70">
+              We use premium hides and meticulous construction to ensure every piece ages with character. Minimal lines, maximum impact.
+            </p>
+            <div className="mt-5 flex gap-3">
+              <a href="#contact" className="btn px-5 py-2 text-sm">Contact</a>
+              <a href="#shop" className="link-underline text-sm">Shop now</a>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <img src="/images/jacket8.jpeg" alt="Detail" className="h-48 w-full object-cover rounded-xl" />
+            <img src="/images/jacket9.jpeg" alt="Stitch" className="h-48 w-full object-cover rounded-xl" />
+            <img src="/images/jacket10.jpeg" alt="Texture" className="h-48 w-full object-cover rounded-xl" />
+            <img src="/images/jacket11.jpeg" alt="Finish" className="h-48 w-full object-cover rounded-xl" />
+          </div>
+        </div>
+      </section>
+
+      {/* Contact stub */}
+      <section id="contact" className="section">
+        <div className="container text-center">
+          <p className="text-black/60 text-sm">Questions? Email us at <span className="text-[var(--accent)]">hello@bonitaleather.com</span></p>
+        </div>
+      </section>
+    </main>
   );
 }
